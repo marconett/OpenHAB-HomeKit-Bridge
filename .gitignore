@@ -5,3 +5,4 @@ lcov-report
 lib-cov
 lib-test
 lcov.info
+json.debug

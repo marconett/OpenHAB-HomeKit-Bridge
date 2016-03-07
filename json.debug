@@ -1,0 +1,74 @@
+{
+    "homepage": {
+        "id": "default",
+        "leaf": "false",
+        "link": "http://localhost:8080/rest/sitemaps/default/default",
+        "title": "HomeKit",
+        "widget": {
+            "icon": "frame",
+            "label": "",
+            "type": "Frame",
+            "widget": {
+                "icon": "temperature",
+                "item": {
+                    "link": "http://localhost:8080/rest/items/Thermostat",
+                    "name": "Thermostat",
+                    "state": "Undefined",
+                    "type": "GroupItem"
+                },
+                "label": "Thermostat",
+                "linkedPage": {
+                    "icon": "temperature",
+                    "id": "0000",
+                    "leaf": "true",
+                    "link": "http://localhost:8080/rest/sitemaps/default/0000",
+                    "title": "Thermostat",
+                    "widget": [
+                        {
+                            "icon": "temperature",
+                            "item": {
+                                "link": "http://localhost:8080/rest/items/rweHumidity",
+                                "name": "rweHumidity",
+                                "state": "44",
+                                "type": "NumberItem"
+                            },
+                            "label": "Luftfeuchtigkeit Zimmer [44.0 %]",
+                            "type": "Text",
+                            "widgetId": "0000_0"
+                        },
+                        {
+                            "icon": "temperature",
+                            "item": {
+                                "link": "http://localhost:8080/rest/items/rweTemp",
+                                "name": "rweTemp",
+                                "state": "21.300000000000000710542735760100185871124267578125",
+                                "type": "NumberItem"
+                            },
+                            "label": "Temperatur Zimmer [21.3 \u00c2\u00b0C]",
+                            "type": "Text",
+                            "widgetId": "0000_1"
+                        },
+                        {
+                            "icon": "temperature",
+                            "item": {
+                                "link": "http://localhost:8080/rest/items/rweSettemp",
+                                "name": "rweSettemp",
+                                "state": "20",
+                                "type": "NumberItem"
+                            },
+                            "label": "Solltemperatur Zimmer [20.0 \u00c2\u00b0C]",
+                            "type": "Text",
+                            "widgetId": "0000_2"
+                        }
+                    ]
+                },
+                "type": "Group",
+                "widgetId": "default_0_0"
+            },
+            "widgetId": "default_0"
+        }
+    },
+    "label": "HomeKit",
+    "link": "http://localhost:8080/rest/sitemaps/default",
+    "name": "default"
+}
